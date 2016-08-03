@@ -40,4 +40,8 @@
     #sw-channel-list-container {
 	text-align: center; /* center-align top menu (this is a hack, real solution wanted) */
     }
+
+    #gb-footer-legal-outer {
+	display: none; /* fuck schoolwires (a.k.a hide sw footer) */
+    }
 }
