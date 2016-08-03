@@ -1,4 +1,24 @@
 @-moz-document domain("scarsdaleschools.k12.ny.us"), domain("scarsdaleschools.org") {
+    #gb-translate-dropdown {
+	display: none !important; /* I dont want a translation */
+    }
+
+    .hide768 {
+        display: block !important; /* override jquery to prevent top menu disappearing */
+    }
+
+    #rs-menu-btn {
+        display: none !important; /* override jquery to prevent top menu disappearing */
+    }
+
+    #channel-navigation {
+	display: inline-block; /* center-align top menu (this is a hack, real solution wanted) */
+    }
+
+    #sw-channel-list-container {
+	text-align: center; /* center-align top menu (this is a hack, real solution wanted) */
+    }
+
     #gb-channel-list {
 	min-height: 40px !important; /* top menu height */
     }
@@ -10,35 +30,19 @@
     }
 
     li.sw-channel-item > a span {
-	padding: 10px 0px 0px 0px; /* top menu size */
+	padding: 0px; /* top menu size */
     }
-
 
     ul.sw-channel-list li.sw-channel-item {
 	height: 40px !important; /* top menu font size */
     }
 
-    .hide768 {
-        display: block !important; /* override jquery to prevent top menu disappearing */
-    }
-
-    #rs-menu-btn {
-        display: none !important; /* override jquery to prevent top menu disappearing */
+    ul.sw-channel-dropdown {
+	width: 100px; /* make top menu dropdown menu smaller */
     }
 
     #gb-logo-cont {
 	display: none !important; /* remove useless section below menu */
-    }
-
-    #gb-translate-dropdown {
-	display: none !important; /* I dont want a translation */
-    }
-
-    #channel-navigation {
-	display: inline-block; /* center-align top menu (this is a hack, real solution wanted) */
-    }
-    #sw-channel-list-container {
-	text-align: center; /* center-align top menu (this is a hack, real solution wanted) */
     }
 
     #gb-footer-legal-outer {
