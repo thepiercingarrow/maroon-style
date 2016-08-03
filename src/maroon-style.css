@@ -1,4 +1,4 @@
-@-moz-document url-prefix("scarsdaleschools.k12.ny.us"), domain("scarsdaleschools.org") {
+@-moz-document domain("scarsdaleschools.k12.ny.us"), domain("scarsdaleschools.org") {
     #gb-channel-list {
 	min-height: 40px !important; /* top menu height */
     }
