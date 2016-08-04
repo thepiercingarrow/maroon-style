@@ -30,7 +30,7 @@
     }
 
     li.sw-channel-item > a span {
-	padding: 0px; /* top menu size */
+	padding: 10px 5px 0px 0px; /* top menu less padding */
     }
 
     ul.sw-channel-list li.sw-channel-item {
