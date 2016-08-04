@@ -54,7 +54,7 @@
     }
 }
 
-@-moz-document regexp("http://www\\.scarsdaleschools\\.org/Domain/\\.*"), regexp("http://www\\.scarsdaleschools\\.k12\\.ny\\.us/Domain/\\.*") {
+@-moz-document regexp('http://www\\.scarsdaleschools\\.(org|k12\\.ny\\.us)/Domain/.*') {
     #hp-slideshow-outer {
 	display: none !important; /* remove useless banner */
     }
