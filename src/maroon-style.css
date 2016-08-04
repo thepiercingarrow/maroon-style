@@ -30,7 +30,7 @@
     }
 
     li.sw-channel-item > a span {
-	padding: 10px 5px 0px 0px; /* top menu less padding */
+	padding: 10px 0px 5px 0px; /* top menu less padding */
     }
 
     ul.sw-channel-list li.sw-channel-item {
@@ -51,5 +51,11 @@
 
     #gb-footer-legal-outer {
 	display: none !important; /* fuck schoolwires (a.k.a remove sw footer) */
+    }
+}
+
+@-moz-document regexp("http://www\\.scarsdaleschools\\.org/Domain/\\.*"), regexp("http://www\\.scarsdaleschools\\.k12\\.ny\\.us/Domain/\\.*") {
+    #hp-slideshow-outer {
+	display: none !important; /* remove useless banner */
     }
 }
