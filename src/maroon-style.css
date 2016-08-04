@@ -45,7 +45,11 @@
 	display: none !important; /* remove useless section below menu */
     }
 
+    #gb-footer-outer {
+	display: none !important; /* remove useless shs footer */
+    }
+
     #gb-footer-legal-outer {
-	display: none; /* fuck schoolwires (a.k.a hide sw footer) */
+	display: none !important; /* fuck schoolwires (a.k.a remove sw footer) */
     }
 }
