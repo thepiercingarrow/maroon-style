@@ -45,10 +45,6 @@
 	display: none !important; /* remove useless section below menu */
     }
 
-    #gb-footer-outer {
-	display: none !important; /* remove useless shs footer */
-    }
-
     #gb-footer-legal-outer {
 	display: none !important; /* fuck schoolwires (a.k.a remove sw footer) */
     }
@@ -57,5 +53,11 @@
 @-moz-document regexp('http://www\\.scarsdaleschools\\.(org|k12\\.ny\\.us)/Domain/.*') {
     #hp-slideshow-outer {
 	display: none !important; /* remove useless banner */
+    }
+}
+
+@-mox-document regexp('http://www\\.scarsdaleschools\\.(org|k12\\.ny\\.us)/(?!Domain/).*') {
+    #gb-footer-outer {
+	display: none !important; /* remove annoying shs footer */
     }
 }
