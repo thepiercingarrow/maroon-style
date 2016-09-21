@@ -1,6 +1,12 @@
+/* GPL3'd (c) 2016 Maxwell Zhao */
+
 @-moz-document domain("scarsdaleschools.k12.ny.us"), domain("scarsdaleschools.org") {
     #gb-translate-dropdown {
 	display: none !important; /* I dont want a translation */
+    }
+
+    .hide320 {
+        display: none !important; /* who the fuck cares about 320?? */
     }
 
     .hide768 {
@@ -38,26 +44,26 @@
     }
 
     ul.sw-channel-dropdown {
-	width: 100px; /* make top menu dropdown menu smaller */
+	/* width: 100px !important; /* make top menu dropdown menu smaller (number not found yet, maybe margin/padding would also fix this :/) */
+    }
+
+    ul.sw-channel-dropdown li a {
+    	font: normal 600 12px 'Fira Sans', sans-serif !important; /* smaller font for dropdown menu */
     }
 
     #gb-logo-cont {
 	display: none !important; /* remove useless section below menu */
     }
 
-    #gb-footer-legal-outer {
-	display: none !important; /* fuck schoolwires (a.k.a remove sw footer) */
-    }
-}
-
-@-moz-document regexp('http://www\\.scarsdaleschools\\.(org|k12\\.ny\\.us)/Domain/.*') {
     #hp-slideshow-outer {
 	display: none !important; /* remove useless banner */
     }
-}
 
-@-mox-document regexp('http://www\\.scarsdaleschools\\.(org|k12\\.ny\\.us)/(?!Domain/).*') {
     #gb-footer-outer {
 	display: none !important; /* remove annoying shs footer */
+    }
+
+    #gb-footer-legal-outer {
+	display: none !important; /* fuck schoolwires (a.k.a remove sw footer) */
     }
 }
