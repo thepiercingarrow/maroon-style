@@ -6,7 +6,7 @@
     }
 
     .hide320 {
-        display: none !important; /* who the fuck cares about 320?? */
+        display: block !important; /* who the fuck cares about 320?? */
     }
 
     .hide768 {
